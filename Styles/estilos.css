@@ -266,7 +266,7 @@ grid-template-columns: 33.33% auto 33.33%;
     background-position: center;
     background-attachment:fixed;
   }
-  form{
+  .Main_Contacto form{
       grid-area: Contacto;
       justify-self: center;
       align-self: center;
@@ -306,6 +306,38 @@ grid-template-columns: 33.33% auto 33.33%;
     padding: 15px;
     border-radius: 8px;
 }
+.Main__Login{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+      "Header Header Header"
+      "Login Login Login"
+      "Footer Footer Footer";
+    grid-template-rows: 10% auto 10%;
+    grid-template-columns: 33.33% auto 33.33%;
+    background-image: url(../Source/Fondo_Login.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+  }
+  .Login{
+      grid-area: Login;
+      justify-self: center;
+      align-self: center;   
+  }
+  .Login_Form{      
+      color: white;      
+      padding: 50px 60px;
+      border-radius: 15px;
+      box-sizing: border-box;
+      margin: 15px;
+-webkit-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.55);
+-moz-box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.55);
+box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.55);
+      
+  }
+
 
 .Redes:hover{
     animation: bounce 1.2s linear;
